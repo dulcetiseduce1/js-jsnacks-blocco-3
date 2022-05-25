@@ -3,7 +3,7 @@ let array = []
 while( somma < 50) {
 const ask = parseInt(prompt("Inserisci un numero"))
 array.push(ask)
-        somma = somma + ask
+        somma += ask
         console.log(somma)
 }
 console.log(array)
